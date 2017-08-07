@@ -90,15 +90,12 @@ def sell_pet_to_customer(pet_shop, pet, customer)
   end
 end
 
-
-
-
-# def pets_by_breed(pet_shop, breed)
-#   pets = []
-#   for pet in pet_shop[:pets] do
-#     if pet[:breed] == breed
-#       pets.push(pet)
-#     end
-#   end
-#   return pets
-# end
+def pets_by_breed(pet_shop, breed)
+  pets = []
+  for pet in pet_shop[:pets] do
+    if pet[:breed] == breed
+      pets.push(pet)
+    end
+  end
+  return pets
+end
